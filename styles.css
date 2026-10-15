@@ -263,3 +263,9 @@ a,.welcome p a,.welcome p .bio-highlight,.email-line a,.social-links a,.topic-ta
 .project-jump-links{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:24px;padding-top:18px;border-top:1px solid var(--line)}
 .project-jump-links a{font-size:14px;font-weight:650}
 .topic p.project-mentor{font-size:14px;color:#66737a;margin-top:18px}
+
+.pub p.publication-award{color:#c5004f;font-weight:700;margin-top:12px}
+.selected-awards{margin-top:36px;padding-top:6px;border-top:1px solid var(--line)}
+.selected-awards ul{list-style:none;padding:0;margin:20px 0 0}
+.selected-awards li{font-size:16px;line-height:1.75;color:#4d5e65;margin-bottom:22px}
+.selected-awards strong{color:#23363d}
