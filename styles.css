@@ -165,3 +165,9 @@ a,.welcome p a,.welcome p .bio-highlight,.email-line a,.social-links a,.topic-ta
 .statement-page .statement p{font-size:clamp(17px,1.3vw,21px);line-height:1.95;letter-spacing:.01em;margin-bottom:30px}
 .statement-page .statement .signature{text-align:right;font-weight:400;margin-top:38px}
 @media(max-width:630px){.home-page .home-intro{padding-top:34px;padding-bottom:44px;gap:32px}.home-page .welcome h2{font-size:64px;margin-bottom:22px}.home-page .welcome p,.home-page .welcome p.intro-lead{font-size:18px;line-height:1.75;margin-bottom:28px}.statement-page .page-header{padding-top:36px;padding-bottom:24px}.statement-page .statement p{font-size:17px;line-height:1.85;margin-bottom:26px}}
+
+/* Show the full research figure instead of cropping it into a narrow strip. */
+.home-page .hero{height:180px}
+.home-page .hero-figure{inset:0 0 0 48%;background-size:contain;background-position:center right;background-repeat:no-repeat;opacity:.95;filter:none}
+.home-page .hero::after{background:linear-gradient(90deg,#15323b 0%,#15323b 42%,rgba(21,50,59,.35) 64%,rgba(21,50,59,.08) 100%)}
+@media(max-width:630px){.home-page .hero{height:160px}.home-page .hero-figure{inset:0 0 0 35%;opacity:.8}.home-page .hero::after{background:linear-gradient(90deg,#15323b 0%,rgba(21,50,59,.94) 45%,rgba(21,50,59,.25) 100%)}.home-page .hero-text{max-width:85%}}
