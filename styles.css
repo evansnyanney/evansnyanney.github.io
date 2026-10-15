@@ -258,3 +258,8 @@ a,.welcome p a,.welcome p .bio-highlight,.email-line a,.social-links a,.topic-ta
 .research-toolbox p{font-size:16px;line-height:1.75;margin:0 0 12px}
 .research-toolbox .eyebrow{font-size:11px}
 @media(max-width:630px){.research-heading .page-subtitle{font-size:17px}.research-card h2{font-size:23px}.research-card p,.research-topics li{font-size:16px}.research-toolbox{padding:22px}}
+
+/* Compact project navigation and consistent project details. */
+.project-jump-links{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:24px;padding-top:18px;border-top:1px solid var(--line)}
+.project-jump-links a{font-size:14px;font-weight:650}
+.topic p.project-mentor{font-size:14px;color:#66737a;margin-top:18px}
