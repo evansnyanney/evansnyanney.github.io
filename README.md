@@ -19,4 +19,4 @@ The map embeds Google Maps for **Ohio University, Athens, Ohio**, and includes a
 
 ## Banner artwork
 
-The homepage uses `assets/statement-sculpture.png`, AI-generated grayscale stone sculpture artwork. The personal statement banner uses `assets/stanford-bunny-banner.png`, an AI-generated point-cloud illustration inspired by the Stanford bunny. Both images are decorative artwork, not experimental research results.
+The homepage uses `assets/statement-sculpture.png`, AI-generated grayscale stone sculpture artwork. The personal statement banner uses `assets/point-cloud-chair.png`, an AI-generated illustrative point-cloud chair inspired by the supplied visual reference. Both images are decorative artwork, not experimental research results.
