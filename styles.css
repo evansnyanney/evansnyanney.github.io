@@ -269,3 +269,8 @@ a,.welcome p a,.welcome p .bio-highlight,.email-line a,.social-links a,.topic-ta
 .selected-awards ul{list-style:none;padding:0;margin:20px 0 0}
 .selected-awards li{font-size:16px;line-height:1.75;color:#4d5e65;margin-bottom:22px}
 .selected-awards strong{color:#23363d}
+
+/* Outlined diamond list markers with a shared hanging indent. */
+main ul:not(.quick ul){list-style:none;padding-left:0}
+main ul:not(.quick ul)>li{position:relative;padding-left:24px}
+main ul:not(.quick ul)>li::before{content:"";position:absolute;left:3px;top:.62em;width:7px;height:7px;border:1px solid #5965c9;transform:rotate(45deg);box-sizing:border-box;background:transparent}
