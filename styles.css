@@ -190,3 +190,9 @@ a,.welcome p a,.welcome p .bio-highlight,.email-line a,.social-links a,.topic-ta
 .statement-banner h1{margin:0;color:#fff;font-size:clamp(42px,7.5vw,122px);font-weight:800;line-height:1.08;letter-spacing:.015em;text-transform:uppercase;max-width:1500px;text-shadow:0 2px 14px rgba(0,0,0,.12)}
 .statement-page .page-header h2{font-size:clamp(32px,3.5vw,48px);letter-spacing:.01em;line-height:1.2;margin:0}
 @media(max-width:630px){.statement-banner{min-height:270px;padding:40px 23px}.statement-banner h1{font-size:clamp(34px,8vw,50px)}}
+
+/* Preserve the sculpture composition instead of cropping it into a short strip. */
+.home-page .hero{height:auto;min-height:240px;aspect-ratio:2172/724}
+.home-page .hero-figure img{object-fit:cover;object-position:center center}
+.home-page .hero-inner{position:absolute;inset:0;height:100%;width:100%}
+@media(max-width:630px){.home-page .hero{height:auto;min-height:280px;aspect-ratio:3/2}.home-page .hero-figure img{object-position:68% center}}
