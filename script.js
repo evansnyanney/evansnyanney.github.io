@@ -35,12 +35,17 @@ document.addEventListener('DOMContentLoaded',()=>{
         signal:controller.signal
       });
       const result=await response.json();
-      if(!response.ok||!(result.success===true||result.success==='true'))throw new Error('Submission failed');
+      if(!response.ok||!(result.success===true||result.success==='true')){
+        const error=new Error('Submission failed');
+        const detail=typeof result.message==='string'?result.message.slice(0,400):'';
+        error.serviceMessage=/activat|confirm|verif/i.test(detail)?'The contact form is awaiting email activation by the site owner. Please email en596624@ohio.edu directly for now.':detail;
+        throw error;
+      }
       status.textContent='Thank you. Your message has been submitted.';
       status.dataset.state='success';
       form.reset();
     }catch(error){
-      status.textContent=error.name==='AbortError'?'The request timed out. Your message is still here. Please try again or email en596624@ohio.edu directly.':'Your message could not be submitted. Please try again or email en596624@ohio.edu directly.';
+      status.textContent=error.serviceMessage?('Message not submitted. '+error.serviceMessage):error.name==='AbortError'?'The request timed out. Your message is still here. Please try again or email en596624@ohio.edu directly.':'Your message could not be submitted. Please try again or email en596624@ohio.edu directly.';
       status.dataset.state='error';
     }finally{
       clearTimeout(timeout);
