@@ -1,22 +1,18 @@
-# Evans Nyanney — Academic Website (Multi-page)
+# Evans Nyanney — Academic Website
 
-This release separates the Home, Research, Publications, Projects, Personal Statement and Contact sections into six pages. The main page is a short introduction with quick navigation, inspired by a traditional academic profile layout.
+Responsive GitHub Pages website with separate pages for Home, Research, Publications, Projects, Personal Statement and Contact.
 
 ## Publishing
 
-1. In the repository `evansnyanney/evansnyanney.github.io`, ensure Pages is set to **main** / **(root)**.
-2. Upload **all six `.html` files**, `styles.css`, `script.js`, and `.nojekyll` into the **root** of the repository (do not upload a parent folder or ZIP as-is). If GitHub refuses to replace an existing file, edit it in the GitHub web editor or remove the old version before uploading.
-3. Commit changes and wait for GitHub Pages to deploy.
-4. Test each navigation link and reload with `Ctrl+Shift+R`.
+1. Extract the ZIP contents. Upload **all** included HTML, CSS, JS and PDF files directly into the repository root of `evansnyanney/evansnyanney.github.io` (not an extra subdirectory).
+2. Confirm `index.html`, `styles.css`, `script.js`, `cv.pdf`, and the other five HTML pages are alongside each other in `main`.
+3. In Settings → Pages, select Deploy from a branch, `main`, `/(root)`.
+4. Open https://evansnyanney.github.io/ after the GitHub Pages build finishes.
 
-The point-cloud image and profile illustration are embedded in `index.html`, so no `assets` folder is required. Older `assets` files in the repository are not used and can be left alone.
+## Menu and CV
 
-The Contact form opens the visitor's email application. This static site does not store or transmit submissions through a backend.
+Click **Menu** at the top right to view all site pages plus the CV link. The `cv.pdf` file is an academic CV from the supplied files. Replace it with an updated CV as needed.
 
-The profile illustration is a scientific visualization, not a photograph. Replace with your own headshot if you wish. Review every public detail and external link before publishing.
+## Contact form and map
 
-## Profile update — October 2026
-
-The homepage uses the provided portrait of Evans Nyanney. The portrait is embedded directly in `index.html`, so no photo upload or `assets` folder is required. The profile title and introduction both use **PhD Student**. Other pages are preserved.
-
-If you have already uploaded the multipage site, replace just `index.html` and `styles.css` with these two updated files.
+The map embeds Google Maps for **Ohio University, Athens, Ohio**, and includes an external link for browsers where embeds are restricted. The form does not use a backend, clicking it opens the visitor's default email application with a prefilled message.
