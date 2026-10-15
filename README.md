@@ -15,7 +15,7 @@ Click **Menu** at the top right to view all site pages plus the CV link. The `cv
 
 ## Contact form and map
 
-The map embeds Google Maps for **Ohio University, Athens, Ohio**, and includes an external link for browsers where embeds are restricted. The form does not use a backend, clicking it opens the visitor's default email application with a prefilled message.
+The map embeds Google Maps for **Ohio University, Athens, Ohio**, and includes an external link for browsers where embeds are restricted. The homepage and contact-page forms submit through FormSubmit's AJAX endpoint without leaving the page. Activate the recipient address by confirming FormSubmit's one-time email before relying on delivery. Messages are processed by that external service. Failed requests preserve the visitor's message, and successful requests show an inline confirmation. To change the recipient, update the form action on both pages. No live submissions were sent during development.
 
 ## Banner artwork
 

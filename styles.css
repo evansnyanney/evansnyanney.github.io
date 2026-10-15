@@ -181,3 +181,5 @@ a,.welcome p a,.welcome p .bio-highlight,.email-line a,.social-links a,.topic-ta
 .home-page .hero-bunnies .bunny-panel img{position:absolute;height:100%;width:auto;max-width:none;max-height:none;left:50%;top:0;transform:translateX(-74%);object-fit:contain}
 .home-page .hero::after{background:linear-gradient(90deg,rgba(4,22,32,.7),rgba(4,22,32,.35) 40%,rgba(4,22,32,.1) 75%)}
 @media(max-width:630px){.home-page .hero-bunnies{grid-template-columns:repeat(3,minmax(0,1fr))}.home-page .hero::after{background:rgba(4,22,32,.5)}}
+
+.form-honeypot{display:none!important}.form-status{font-size:15px;line-height:1.6;margin:16px 0 0}.form-status:empty{display:none}.form-status[data-state="success"]{color:#176548}.form-status[data-state="error"]{color:#b00036}.send-button:disabled{opacity:.65;cursor:wait}
