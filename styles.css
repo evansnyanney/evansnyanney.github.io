@@ -196,3 +196,11 @@ a,.welcome p a,.welcome p .bio-highlight,.email-line a,.social-links a,.topic-ta
 .home-page .hero-figure img{object-fit:cover;object-position:center center}
 .home-page .hero-inner{position:absolute;inset:0;height:100%;width:100%}
 @media(max-width:630px){.home-page .hero{height:auto;min-height:280px;aspect-ratio:3/2}.home-page .hero-figure img{object-position:68% center}}
+
+/* Independent homepage masthead: image determines height without cropping. */
+.home-masthead{width:100%;isolation:isolate}
+.home-masthead-text{color:white;max-width:640px;text-shadow:0 1px 6px #0007}
+.home-masthead-text h1{font-size:clamp(30px,3.5vw,54px);line-height:1.15;letter-spacing:-.035em;margin:10px 0}
+.home-masthead-text .eyebrow{color:#ff0066}
+.home-masthead-text>p:last-child{font-size:15px;line-height:1.6;color:#e1edee;margin:8px 0 0}
+@media(max-width:630px){.home-masthead-text h1{font-size:25px;margin:5px 0}.home-masthead-text .eyebrow{font-size:8px;letter-spacing:.08em}.home-masthead-text>p:last-child{font-size:11px;max-width:230px;margin:3px 0}.home-masthead-content.wrap{padding-left:16px;padding-right:16px}}
