@@ -183,3 +183,10 @@ a,.welcome p a,.welcome p .bio-highlight,.email-line a,.social-links a,.topic-ta
 @media(max-width:630px){.home-page .hero-bunnies{grid-template-columns:repeat(3,minmax(0,1fr))}.home-page .hero::after{background:rgba(4,22,32,.5)}}
 
 .form-honeypot{display:none!important}.form-status{font-size:15px;line-height:1.6;margin:16px 0 0}.form-status:empty{display:none}.form-status[data-state="success"]{color:#176548}.form-status[data-state="error"]{color:#b00036}.send-button:disabled{opacity:.65;cursor:wait}
+
+/* Dedicated point-cloud banner for the personal statement. */
+.statement-banner{position:relative;isolation:isolate;min-height:clamp(260px,32vw,520px);display:flex;align-items:center;justify-content:center;padding:54px 30px;background:#001d2c url('assets/point-cloud-banner.png') center/cover no-repeat;text-align:center}
+.statement-banner::before{content:"";position:absolute;inset:0;background:rgba(0,15,25,.48);z-index:-1}
+.statement-banner h1{margin:0;color:#fff;font-size:clamp(42px,7.5vw,122px);font-weight:800;line-height:1.08;letter-spacing:.015em;text-transform:uppercase;max-width:1500px;text-shadow:0 2px 14px rgba(0,0,0,.12)}
+.statement-page .page-header h2{font-size:clamp(32px,3.5vw,48px);letter-spacing:.01em;line-height:1.2;margin:0}
+@media(max-width:630px){.statement-banner{min-height:270px;padding:40px 23px}.statement-banner h1{font-size:clamp(34px,8vw,50px)}}
