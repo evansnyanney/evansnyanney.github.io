@@ -20,3 +20,5 @@ The map embeds Google Maps for **Ohio University, Athens, Ohio**, and includes a
 ## Banner artwork
 
 The homepage uses `assets/statement-sculpture.png`, AI-generated grayscale stone sculpture artwork. The personal statement banner uses `assets/point-cloud-chair.png`, an AI-generated illustrative point-cloud chair inspired by the supplied visual reference. Both images are decorative artwork, not experimental research results.
+
+The Publications banner uses `assets/publications-banner.png`, AI-generated decorative artwork adapted from the supplied point-cloud plot collage, not a source for scientific results.
