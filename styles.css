@@ -233,3 +233,8 @@ a,.welcome p a,.welcome p .bio-highlight,.email-line a,.social-links a,.topic-ta
 .registration-banner .projects-banner-title{align-items:flex-end;justify-content:flex-start;padding:24px max(30px,calc((100vw - 1480px)/2 + 42px));background:linear-gradient(0deg,rgba(0,15,25,.65),transparent 55%)}
 .registration-banner h1{font-size:clamp(34px,4vw,58px)}
 @media(max-width:630px){.projects-banner.registration-banner{height:230px}.registration-banner .projects-banner-title{padding:18px 23px}}
+
+/* Fit the complete Research illustration within the Projects banner dimensions. */
+.projects-banner.registration-banner{height:clamp(200px,20vw,340px)}
+.registration-banner .registration-banner-image{width:100%;height:100%;object-fit:contain;object-position:center}
+@media(max-width:630px){.projects-banner.registration-banner{height:200px}}
