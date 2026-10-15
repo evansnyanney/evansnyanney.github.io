@@ -271,9 +271,9 @@ a,.welcome p a,.welcome p .bio-highlight,.email-line a,.social-links a,.topic-ta
 .selected-awards strong{color:#23363d}
 
 /* Outlined diamond list markers with a shared hanging indent. */
-main ul:not(.quick ul){list-style:none;padding-left:0}
-main ul:not(.quick ul)>li{position:relative;padding-left:24px}
-main ul:not(.quick ul)>li::before{content:"";position:absolute;left:3px;top:.62em;width:7px;height:7px;border:1px solid #5965c9;transform:rotate(45deg);box-sizing:border-box;background:transparent}
+main ul:not(.quick ul):not(.manuscript-titles){list-style:none;padding-left:0}
+main ul:not(.quick ul):not(.manuscript-titles)>li{position:relative;padding-left:24px}
+main ul:not(.quick ul):not(.manuscript-titles)>li::before{content:"";position:absolute;left:3px;top:.62em;width:7px;height:7px;border:1px solid #5965c9;transform:rotate(45deg);box-sizing:border-box;background:transparent}
 
 /* Manuscripts line up with publication titles, without moving the heading. */
 .manuscript-details{margin-left:95px}
