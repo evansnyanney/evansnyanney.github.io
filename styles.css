@@ -169,8 +169,15 @@ a,.welcome p a,.welcome p .bio-highlight,.email-line a,.social-links a,.topic-ta
 /* Full-width research image behind the banner text. */
 .home-page .hero{height:200px;display:block;position:relative;background:#15323b;isolation:isolate}
 .home-page .hero-figure{position:absolute;inset:0;display:block;background:none;opacity:1;filter:none;overflow:hidden;z-index:0}
-.home-page .hero-figure img{display:block;width:100%;height:100%;max-height:none;object-fit:cover;object-position:center 30%}
-.home-page .hero::after{content:"";display:block;position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(12,35,44,.88) 0%,rgba(12,35,44,.62) 38%,rgba(12,35,44,.18) 75%,rgba(12,35,44,.08) 100%);pointer-events:none}
+.home-page .hero-figure img{display:block;width:100%;height:100%;max-height:none;object-fit:cover;object-position:center 50%}
+.home-page .hero::after{content:"";display:block;position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(4,22,32,.35) 0%,rgba(4,22,32,.15) 38%,transparent 75%);pointer-events:none}
 .home-page .hero-inner{position:relative;z-index:2;display:flex;align-items:center;height:100%;width:100%;max-width:var(--max);margin:0 auto;padding:0 42px}
 .home-page .hero-text{max-width:640px;text-shadow:0 1px 4px rgba(0,0,0,.35)}
-@media(max-width:630px){.home-page .hero{height:180px}.home-page .hero-inner{padding:0 23px}.home-page .hero-figure{inset:0;opacity:1}.home-page .hero-figure img{max-height:none;object-position:center 30%}.home-page .hero-text{max-width:100%}.home-page .hero::after{background:linear-gradient(90deg,rgba(12,35,44,.85),rgba(12,35,44,.3))}}
+@media(max-width:630px){.home-page .hero{height:180px}.home-page .hero-inner{padding:0 23px}.home-page .hero-figure{inset:0;opacity:1}.home-page .hero-figure img{max-height:none;object-position:center 50%}.home-page .hero-text{max-width:100%}.home-page .hero::after{background:linear-gradient(90deg,rgba(12,35,44,.85),rgba(12,35,44,.3))}}
+
+/* Three bunny scans across the full banner. */
+.home-page .hero-bunnies{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;background:#001d2c}
+.home-page .bunny-panel{display:block;position:relative;overflow:hidden;min-width:0;height:100%}
+.home-page .hero-bunnies .bunny-panel img{position:absolute;height:100%;width:auto;max-width:none;max-height:none;left:50%;top:0;transform:translateX(-74%);object-fit:contain}
+.home-page .hero::after{background:linear-gradient(90deg,rgba(4,22,32,.7),rgba(4,22,32,.35) 40%,rgba(4,22,32,.1) 75%)}
+@media(max-width:630px){.home-page .hero-bunnies{grid-template-columns:repeat(3,minmax(0,1fr))}.home-page .hero::after{background:rgba(4,22,32,.5)}}
