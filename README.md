@@ -14,3 +14,9 @@ The point-cloud image and profile illustration are embedded in `index.html`, so 
 The Contact form opens the visitor's email application. This static site does not store or transmit submissions through a backend.
 
 The profile illustration is a scientific visualization, not a photograph. Replace with your own headshot if you wish. Review every public detail and external link before publishing.
+
+## Profile update — October 2026
+
+The homepage uses the provided portrait of Evans Nyanney. The portrait is embedded directly in `index.html`, so no photo upload or `assets` folder is required. The profile title and introduction both use **PhD Student**. Other pages are preserved.
+
+If you have already uploaded the multipage site, replace just `index.html` and `styles.css` with these two updated files.
