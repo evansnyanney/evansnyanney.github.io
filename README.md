@@ -23,4 +23,6 @@ The homepage uses `assets/statement-sculpture.png`, AI-generated grayscale stone
 
 The Publications banner uses `assets/publications-banner.png`, AI-generated decorative artwork adapted from the supplied point-cloud plot collage, not a source for scientific results.
 
-The Projects banner uses `assets/registration-banner.png`, an AI-generated conceptual illustration of cyan and pink point-cloud scans aligning. It does not represent measured registration results.
+The Research banner uses `assets/registration-banner.png`, an AI-generated conceptual illustration of cyan and pink point-cloud scans aligning. It does not represent measured registration results.
+
+The Projects banner retains three Stanford bunny-inspired point-cloud illustrations.
