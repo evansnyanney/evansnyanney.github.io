@@ -1,0 +1,8 @@
+/* Dedicated personal statement masthead. */
+.statement-page .statement-banner{display:flex;position:relative;isolation:isolate;align-items:center;justify-content:center;width:100%;height:clamp(320px,33vw,590px);min-height:320px;margin:0;padding:48px 5%;overflow:hidden;background:#282828;text-align:center}
+.statement-page .statement-banner-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 45%;z-index:-2}
+.statement-page .statement-banner::before{content:"";position:absolute;inset:0;background:rgba(0,0,0,.35);z-index:-1}
+.statement-page .statement-banner h1{display:block;position:relative;margin:0;color:white;font-family:"Segoe UI",Arial,sans-serif;font-size:clamp(48px,7.6vw,132px);font-weight:800;line-height:1.08;letter-spacing:.01em;text-transform:uppercase;text-shadow:0 2px 12px #00152066}
+.statement-page .page-header{padding-top:64px;padding-bottom:30px;text-align:center}
+.statement-page .page-header h2{margin:0;font-size:clamp(32px,3.5vw,48px);line-height:1.2}
+@media(max-width:630px){.statement-page .statement-banner{height:300px;min-height:300px;padding:36px 20px}.statement-page .statement-banner h1{font-size:clamp(38px,9vw,56px)}.statement-page .page-header{padding-top:38px;padding-bottom:24px}}
