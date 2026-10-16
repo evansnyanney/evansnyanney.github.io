@@ -18,3 +18,7 @@
 .statement-page .statement{direction:ltr;text-align:right}
 .statement-page .statement p{direction:ltr;text-align:right}
 .statement-page .page-header{text-align:center}
+
+/* Preserve the complete point-cloud chair within the banner. */
+.statement-page .statement-banner{background:#111416}
+.statement-page .statement-banner-image{object-fit:contain;object-position:center center}
