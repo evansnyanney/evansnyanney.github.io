@@ -330,3 +330,7 @@ main .manuscript-titles>li::before{content:none}
 @media(max-width:630px){.research-emergence-banner{height:180px;max-height:none;aspect-ratio:auto}.research-emergence-banner img{height:100%}}
 
 @media(max-width:630px){.research-emergence-banner img{object-fit:contain}.research-emergence-banner{background:#fffbee}}
+
+/* Match the approved muted Research artwork at the banner edges. */
+.research-emergence-banner{background:#b8c5c9}
+@media(max-width:630px){.research-emergence-banner{background:#b8c5c9}}
