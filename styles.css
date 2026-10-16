@@ -318,3 +318,8 @@ main .manuscript-titles>li::before{content:none}
   text-justify:inter-word;
   hyphens:auto;
 }
+
+/* Approved blended Research artwork, shown fully without a title overlay. */
+.research-emergence-banner{width:100%;height:clamp(200px,20vw,340px);background:#fffbee;overflow:hidden}
+.research-emergence-banner img{display:block;width:100%;height:100%;object-fit:contain;object-position:center}
+@media(max-width:630px){.research-emergence-banner{height:auto}.research-emergence-banner img{height:auto}}
