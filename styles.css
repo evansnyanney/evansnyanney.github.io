@@ -308,3 +308,13 @@ main .manuscript-titles>li::before{content:none}
 .publications-cover-subtitle{color:#fff;font-size:clamp(12px,1.15vw,17px);line-height:1.5;margin-bottom:16px}
 .publications-cover-credit{color:#fff;font-size:clamp(12px,1vw,15px);font-weight:700;text-transform:uppercase;letter-spacing:.12em}
 @media(max-width:630px){.publications-cover-banner{height:340px}.publications-cover-title{font-size:40px}.publications-cover-subtitle{max-width:none}.publications-cover-content>div{padding:18px 0}}
+
+/* Homepage biography: Times New Roman with justified paragraph edges. */
+.home-page .welcome p.intro-lead,
+.home-page .welcome p.academic-journey{
+  font-family:"Times New Roman",Times,serif;
+  text-align:justify;
+  text-align-last:left;
+  text-justify:inter-word;
+  hyphens:auto;
+}
