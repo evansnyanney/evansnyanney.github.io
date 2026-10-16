@@ -1,0 +1,14 @@
+/* Shared typography for every page. */
+body,body *{font-family:"Times New Roman",Times,serif!important}
+main p,main li,main dd{
+  text-align:justify!important;
+  text-align-last:left;
+  text-justify:inter-word;
+  hyphens:auto;
+}
+/* Keep short labels, portrait details and banner headings in their established positions. */
+main .eyebrow,main .topic-tag,main .pub-year,main .project-mentor,main .research-card-label p,main .form-help,main .form-status{ text-align:left!important;hyphens:none }
+main .identity p,main .publications-cover-content p{text-align:center!important;text-align-last:auto;hyphens:none}
+main .home-masthead-text p,main .hero-text p{text-align:left!important;text-align-last:auto;hyphens:none}
+.statement-page .statement .welcome-note,.statement-page .statement .signature{text-align:right!important;text-align-last:auto;hyphens:none}
+main .quick li{text-align:left!important;hyphens:none}
