@@ -334,3 +334,11 @@ main .manuscript-titles>li::before{content:none}
 /* Match the approved muted Research artwork at the banner edges. */
 .research-emergence-banner{background:#b8c5c9}
 @media(max-width:630px){.research-emergence-banner{background:#b8c5c9}}
+
+/* Homepage navigation: every section is visible without a dropdown. */
+.home-page .top-inner{max-width:1480px;gap:24px;flex-wrap:wrap;padding-top:12px;padding-bottom:12px}
+.home-navigation{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:6px 24px;margin-left:auto}
+.home-navigation a{display:block;color:#143338;font-size:16px;font-weight:700;line-height:1.4;padding:10px 0;border-bottom:2px solid transparent;white-space:nowrap}
+.home-navigation a:hover,.home-navigation a[aria-current="page"]{color:#143338;border-bottom-color:#143338;text-decoration:none}
+@media(max-width:1060px){.home-page .top-inner{gap:8px 24px}.home-navigation{gap:4px 18px}}
+@media(max-width:780px){.home-navigation{width:100%;margin-left:0;justify-content:flex-start;gap:2px 22px}.home-navigation a{font-size:15px;padding:8px 0}.home-page .top-inner{padding-top:16px;padding-bottom:12px}}
