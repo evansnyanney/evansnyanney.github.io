@@ -1,0 +1,16 @@
+/* Compact, vertical research reading layout inspired by the supplied reference. */
+.research-page{background:#102640;color:#fff}
+.research-overview{padding-top:38px;padding-bottom:64px}
+.research-overview h1{font-size:30px;line-height:1.25;margin:0 0 36px}
+.research-overview h1 span{background:#b64a00;color:#fff;padding:3px 8px;box-decoration-break:clone}
+.research-overview h2{font-size:25px;line-height:1.35;margin:0 0 20px;color:#fff}
+.research-overview>p,.research-reading-tools p{font-size:19px;line-height:1.7;color:#eef3f8;margin:0 0 28px}
+.research-overview h3{font-size:21px;line-height:1.4;color:#fff;margin:28px 0 18px}
+.research-reading-list{list-style:decimal;padding-left:32px;margin:0}
+.research-reading-list>li{padding-left:8px;margin:0 0 22px;color:#f2f5f8;font-size:19px;line-height:1.7;scroll-margin-top:24px}
+.research-reading-list>li::marker{color:#fff}
+.research-inline-title{color:#ff9a71;font-size:25px;line-height:1.4;font-weight:700}
+.research-overview a{color:#b4e7ff;text-decoration:underline;text-underline-offset:3px}
+.research-overview a:hover{color:#fff}
+.research-reading-tools{border-top:1px solid #ffffff30;margin-top:32px;padding-top:4px}
+@media(max-width:630px){.research-overview{padding-top:28px;padding-bottom:44px}.research-overview h1{margin-bottom:28px}.research-inline-title{font-size:22px}.research-reading-list>li,.research-overview>p,.research-reading-tools p{font-size:17px;line-height:1.75}.research-reading-list{padding-left:25px}}
