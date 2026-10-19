@@ -38,3 +38,7 @@ body.home-page main .welcome h2,body.home-page main .quick h3,body.home-page mai
 body.home-page main .welcome p a,body.home-page main .welcome p .bio-highlight{color:#ff4b94}
 body.home-page main .welcome p strong{color:#f5f7fb}
 body.statement-page main .statement .signature,body.statement-page main .statement .welcome-note{color:#f5f7fb}
+
+/* Projects content uses white text throughout. */
+body.projects-page main,body.projects-page main p,body.projects-page main li,body.projects-page main a,body.projects-page main strong,body.projects-page main .eyebrow,body.projects-page main .topic-tag,body.projects-page main .topic-num,body.projects-page main .project-mentor,body.projects-page main figcaption{color:#fff}
+body.projects-page main a:hover{color:#fff;text-decoration:underline}
