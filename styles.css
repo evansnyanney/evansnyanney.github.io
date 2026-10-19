@@ -342,3 +342,11 @@ main .manuscript-titles>li::before{content:none}
 .home-navigation a:hover,.home-navigation a[aria-current="page"]{color:#143338;border-bottom-color:#143338;text-decoration:none}
 @media(max-width:1060px){.home-page .top-inner{gap:8px 24px}.home-navigation{gap:4px 18px}}
 @media(max-width:780px){.home-navigation{width:100%;margin-left:0;justify-content:flex-start;gap:2px 22px}.home-navigation a{font-size:15px;padding:8px 0}.home-page .top-inner{padding-top:16px;padding-bottom:12px}}
+
+/* Subtle cinematic movement behind the static homepage banner text. */
+.home-masthead-image{transform-origin:62% 50%;animation:sculpture-pan 28s ease-in-out infinite alternate}
+@keyframes sculpture-pan{
+  from{transform:scale(1) translateX(0)}
+  to{transform:scale(1.045) translateX(-.6%)}
+}
+@media(prefers-reduced-motion:reduce){.home-masthead-image{animation:none;transform:none}}
