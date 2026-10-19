@@ -1,0 +1,40 @@
+/* Shared navy surfaces and readable content across every page. */
+:root{--ink:#f2f5fa;--ink2:#d1dce8;--line:#ffffff26;--pale:#17324f;--academic-accent:#ff4b94;--mintdark:#ff4b94}
+body,body.research-page{background:#102640;color:#f2f5fa}
+body main h1,body main h2,body main h3{color:#f5f7fb}
+body main p,body main li,body main dd{color:#dce5ef}
+body main p.intro-lead,body main p.academic-journey,body main .statement p,body main .welcome p{color:#e5ecf5}
+body main strong,body main .authors strong{color:#f5f7fb}
+body main a{color:#ff4b94}
+body main a:hover{color:#ff92bd}
+body main .bio-highlight,body main .welcome p .bio-highlight,body main .welcome p a,body main .eyebrow,body main .topic-tag,body main .pub-year,body main .topic-num,body main .period{color:#ff4b94}
+body main .welcome p strong{color:#f5f7fb}
+body main .small-muted,body main .page-subtitle,body main .campus-description,body main .project-mentor,body main .form-help,body main .pub p,body main .manuscript-details>p,body main .workflow figcaption{color:#c8d5e3}
+body .home-contact{background:#102640;border-top-color:#ffffff26}
+body .section-title,body .quick h3,body .identity h2,body .identity .role,body .contact-grid h2{color:#f2f5fa}
+body .quick li,body .home-contact-form .required-note,body .home-contact-form label,body .email-panel label{color:#dce5ef}
+body .email-panel,body .note-link,body .research-toolbox,body .workflow li{background:#17324f;border-color:#ffffff26;color:#e5ecf5}
+body .note-link{border-left-color:#ff4b94}
+body .profile-art{background:#17324f;border-color:#ffffff40}
+body .email-panel input,body .email-panel textarea,body .home-contact-form input,body .home-contact-form textarea{background:#0b1d33;border:1px solid #7e96ae;color:#f5f7fb}
+body input::placeholder,body textarea::placeholder{color:#adbed0;opacity:1}
+body .form-status[data-state="success"]{color:#8be3b4}
+body .form-status[data-state="error"]{color:#ffb0bc}
+body .pub p.publication-award,body .manuscript-diamond{color:#ff80b1}
+body main ul:not(.quick ul):not(.manuscript-titles)>li::before{border-color:#ff80b1}
+body .page-header,body .topic,body .pub,body .quick{border-color:#ffffff26}
+body footer{background:#0b1d33;border-top-color:#ffffff26;color:#b8cadd}
+body footer a{color:#ff80b1}
+body .research-overview a{color:#b4e7ff}
+body .research-overview a:hover{color:white}
+body .research-inline-title{color:#ff9a71}
+body .home-masthead-text p,body .publications-cover-content p{color:#f4f6fa}
+body .home-masthead-text .eyebrow{color:#ff4b94}
+body .skip-link{color:#17324f;background:white}
+
+/* Override the earlier page-specific light palette. */
+body.home-page main .welcome p,body.home-page main .welcome p.intro-lead,body.home-page main .welcome p.academic-journey,body.statement-page main .statement p{color:#e5ecf5}
+body.home-page main .welcome h2,body.home-page main .quick h3,body.home-page main .identity h2,body.home-page main .identity .role{color:#f5f7fb}
+body.home-page main .welcome p a,body.home-page main .welcome p .bio-highlight{color:#ff4b94}
+body.home-page main .welcome p strong{color:#f5f7fb}
+body.statement-page main .statement .signature,body.statement-page main .statement .welcome-note{color:#f5f7fb}
